@@ -3,12 +3,15 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+.error {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .forOfor {
+    text-align: center;
     font-size: 5em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
 }
 .container {
     max-width: 950px;
