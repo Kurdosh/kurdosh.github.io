@@ -47,3 +47,9 @@
 .portfolio__name a:hover {
     color: #000;
 }
+
+@media screen and (max-width: 946px) {
+    .portfolio {
+        justify-content: center;
+    }
+}
