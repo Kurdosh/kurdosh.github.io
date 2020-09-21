@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.promo {
+    overflow: hidden;
+    background: url(../img/promo-bg.jpg) center no-repeat;
+    max-height: 550px;
+    max-width: 1532px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.promo__left {
+    position: relative;
+    left: 7.2%;
+    justify-content: flex-start;
+    width: 40%;
+    height: 465px;
+    background-color: #ffffffe1;
+    align-items: center;
+    clip-path: polygon(0 0, 84% 0, 100% 100%, 0 100%);
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 10px;
+}
+.promo__left__header {
+    color: #ff3838;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.promo__left__subheader {
+    text-align: center;
+    text-transform: none;
+}
+
+.promo__right {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 550px;
+    background-color: #e02b2585;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 13% 100%);
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 43px;
+}
+.promo__right__header {
+    font-size: 50px;
+    
+}
+.promo__right__subheader {
+    font-size: 30px;
+    text-transform: none;
+}
+
+
+
+@media (max-width: 1070px) {
+    .promo__left__header {
+        font-size: 30px;
+    }
+    .promo__right__header {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 870px) {
+    .promo__left__header {
+        font-size: 25px;
+    }
+    .promo__left__subheader {
+        font-size: 14px;
+    }
+    .promo__right__header {
+        font-size: 35px;
+    }
+    .promo__right__subheader {
+        font-size: 25px;
+    }
+}
+@media (max-width: 770px) {
+    .promo__left__header {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .promo__right__header {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 670px) {
+    .promo__left__header {
+        font-size: 20px;
+    }
+    .promo__right__header {
+        font-size: 20px;
+        text-align: center;
+    }
+    .promo__right__subheader {
+        font-size: 15px;
+    }
+}
+@media (max-width: 470px) {
+    .promo__left {
+        padding-right: 26px;
+    }
+    .promo__right {
+        padding-left: 10px;
+    }
+    .promo__left__header {
+        font-size: 15px;
+    }
+    .promo__left__subheader {
+        font-size: 12px;
+    }
+    .promo__right__header {
+        font-size: 15px;
+    }
+    .promo__right__subheader {
+        font-size: 12px;
+    }
+}
+@media (max-width: 370px) {
+    .promo__right__header {
+        font-size: 13px;
+    }
+}
