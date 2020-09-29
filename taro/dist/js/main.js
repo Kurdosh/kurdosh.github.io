@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         var scrolled = $(this).scrollTop();
-        if ($(window).width() <= '995') {
+        if ($(window).width() <= '768') {
             if (scrolled >= 1000) {
                 $('.header__nav').addClass('header__nav_top');
             }
