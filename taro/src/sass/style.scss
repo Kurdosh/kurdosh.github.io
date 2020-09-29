@@ -1,0 +1,35 @@
+
+@import 'base/slick';
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.center {
+    text-align: center;
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/acquintance';
+@import 'blocks/title';
+@import 'blocks/author';
+@import 'blocks/cards';
+@import 'blocks/for';
+@import 'blocks/content';
+@import 'blocks/review';
+@import 'blocks/order';
+@import 'blocks/footer';
+@import 'base/media';
+

@@ -1,0 +1,94 @@
+.review {
+    position: relative;
+    &__first-bg {
+        position: absolute;
+        width: 1266px;
+        height: 1176px;
+        // transform: translate(900px,-200px);
+
+        right: -30%;
+        top: -350px;
+
+
+        z-index: -1;
+        background: radial-gradient(50% 50% at 50% 50%, #7E3AD6 0%, rgba(126, 58, 214, 0) 100%);
+        opacity: 0.3;
+    }
+    &__second-bg {
+        position: absolute;
+        width: 1206px;
+        height: 1136px;
+        // transform: translate(-900px);
+
+        left: -644px;
+        top: 200px;
+
+        z-index: -1;
+        background: radial-gradient(50% 50% at 50% 50%, #D63A3A 0%, rgba(126, 58, 214, 0) 100%);
+        opacity: 0.3;
+    }
+    &__slider {
+        max-width: 780px;
+        margin: 0 auto;
+        margin-bottom: 209px;
+    }
+    &__item {
+        display: flex !important;
+        margin: 58px auto 0;
+        margin-bottom: 78px;
+    }
+    &__img {
+        display: flex;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 2px solid #db9f70;
+        margin-right: 51px;
+        margin-top: 70px;
+    }
+    &__title {
+        color: #ffffff;
+        font-family: Caveat;
+        font-size: 50px;
+        font-weight: 400;
+        &:after {
+            content: '„';
+            color: #ffffff;
+            font-family: Constantia;
+            font-size: 100px;
+            font-weight: 400;
+            line-height: 150px;
+            padding-left: 25px;
+        }
+    }
+    &__descr {
+        opacity: 0.9;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 36px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        display: block;
+        color: #db9f70;
+        font-family: "Open Sans";
+        font-size: 17px;
+        font-weight: 400;
+    }
+    &__date {
+        display: block;
+        color: #db9f70;
+        font-family: "Open Sans";
+        font-size: 17px;
+        font-weight: 400;
+    }
+    &__wrapper {
+        position: relative;
+    }
+}

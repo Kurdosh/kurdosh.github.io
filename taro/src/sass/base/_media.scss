@@ -1,0 +1,353 @@
+
+
+
+@media (max-width: 768px) {
+    .prev-arrow {
+        display: none
+   }
+    .next-arrow {
+         display: none
+    }
+    
+    
+    .container {
+        max-width: 768px;
+    }
+    .header {
+        &__bg {
+            display: none;
+        }
+        &__nav {
+            button {
+                display: none;
+            }
+            &_top {
+                button {
+                    display: block;
+                }
+            }
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .junga {
+        font-size: 33px;
+    }
+    .title {
+        font-size: 50px;
+        h1 {
+            font-size: 57px;
+        }
+        span {
+            font-size: 95px;
+        }
+    }
+    .subtitle {
+        h2 {
+            span {
+                font-size: 23px;
+            }
+            font-size: 23px;
+        }
+    }
+    .btn {
+        font-size: 15px;
+    }
+
+    .acquaintance {
+        &__bg {
+            width: 878.69px;
+            height: 815.93px;
+        }
+        &__img {
+            transform: translateX(70px);
+        }
+    }
+    
+
+    .author {
+        &__bg {
+            width: 830px;
+            height: 782px;
+            left: -200px
+        }
+        &__descr {
+            font-size: 15px;
+            &:before {
+                font-size: 122px;
+            }
+        }
+    }
+
+
+    .cards {
+        margin-bottom: 89px;
+        &__first-bg {
+            left: -80%;
+        }
+        &__second-bg {
+            right: -90%;
+        }
+    }
+
+
+    .for {
+        margin-bottom: 93px;
+        .title {
+            display: none;
+        }
+        .title_hidden {
+            display: block;
+            text-align: center;
+            margin-bottom: 53px;
+        }
+    }
+
+    .content {
+        margin-bottom: 112px;
+    }
+    
+
+
+    .review {
+        &__slider {
+            margin-bottom: 56px;
+        }
+    }
+    .footer {
+        &__up {
+            display: none;
+        }
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        text-align: center;
+        font-size: 44px;
+    }
+    .header {
+        margin-bottom: 20px;
+        &__link {
+            font-size: 20px;
+            margin: 0 3px;
+        }
+    }
+    .acquaintance {
+        .subtitle_acquaintance {
+            text-align: center;
+        }
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    &__left {
+        order: 2;
+    }
+    &__right {
+        order: 1;
+    }
+        &__img {
+            transform: none;
+            margin-bottom: 20px;
+        }
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+    }
+    .junga {
+        text-align: center;
+    }
+
+    .author {
+        &__wrapper {
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        &__left {
+            margin: 0 auto;
+        }
+        &__right {
+            margin: 0 auto;
+        }
+        .title {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+            &:before {
+                top: -100px;
+                right: -280px;
+            }
+        }
+    }
+
+    .for {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__list {
+            font-size: 15px;
+        }
+    }
+
+    .content {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__descr {
+            margin-bottom: 40px;
+            font-size: 15px;
+        }
+    }
+
+
+    .review {
+        &__item {
+            flex-wrap: wrap;
+            img {
+                margin: 10px auto !important;
+            }
+        }
+        &__left {
+            margin: 0 auto;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__title {
+            font-size: 33px;
+        }
+    }
+
+    .order {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: block;
+            margin: 0 auto;
+        }
+        &__left {
+            margin: 0 auto;
+        }
+        &__right {
+            margin: 0 auto;
+        }
+        &__form {
+            max-width: 100%;
+        }
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 534px) {
+    body {
+        max-width: 534px
+    }
+    .header {
+        margin-top: 20px;
+        &__link {
+            display: none;
+        }
+        &__wrapper {
+            justify-content: start;
+        }
+        .burger {
+            display: block;
+        }
+    }
+    .burger {
+        display: block;
+    }
+    }
+    .acquaintance {
+        .title {
+            h1 {
+                font-size: 42px;
+                span {
+                    font-size: 100px;
+                }
+            }
+        }
+        &__left {
+            margin: 0 auto;
+        }
+    }
+    
+
+@media (min-width: 534px) {
+    .acquaintance {
+        .title {
+            h1 {
+                font-size: 60px;
+            }
+        }
+    }
+}
+@media (min-width: 765px) {
+    .title_hidden {
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .author {
+        &__bg {
+            left: -100px;
+            width: 100%;
+            height: 500px;
+        }
+    }
+    .cards {
+        &__descr {
+            font-size: 15px;
+            max-width: 320px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+        &__first-bg {
+            left: -600px;
+            width: 100%;
+        }
+        &__second-bg {
+            left: -700px;
+            width: 100%;
+        }
+    }
+    .for {
+        &__bg {
+            left: -500px;
+        }
+    }
+    .review {
+        &__first-bg {
+            left: -200px;
+            width: 100%;
+            height: 700px;
+        }
+        &__second-bg {
+            left: -100px;
+            width: 100%;
+            height: 700px;
+        }
+    }
+    .order {
+        margin-bottom: 0;
+        &__bg {
+            width: 100%;
+            height: 300px;
+            left: -250px;
+            top: 200px;
+        }
+    }
+    
+}

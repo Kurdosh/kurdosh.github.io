@@ -1,0 +1,38 @@
+.btn {
+    width: 295px;
+    height: 64px;
+    box-shadow: 0 0 12px rgba(236, 238, 95, 0.26);
+    border-radius: 47px;
+    border: 2px solid #ecee5f;
+    text-shadow: 0 0 12px #ecee5f;
+    color: #ecee5f;
+    font-family: Arsenal;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.57px;
+    text-transform: uppercase;
+    background-color: #000;
+    transition-duration: 0.2s;
+    a {
+        color: #ecee5f;
+        text-decoration: none;
+    }
+    &_yellow {
+        color: #000;
+        border-radius: 47px;
+        background-color: #ecee5f;
+        a {
+            color: #000;
+        }
+    }
+    &:hover {
+        box-shadow: 0 0 30px rgba(236, 238, 95, 0.7);
+        border-radius: 47px;
+        background-color: #ecee5f;
+        color: #000;
+        transition-duration: 0.2s;
+        a {
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.acquaintance {
+    margin-bottom: 173px;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__left {
+        margin-left: 20px;
+    }
+    &__title {
+        h1 {
+            font-size: 60px !important;
+        }
+    }
+    &__bg {
+        position: absolute;
+        width: 980px;
+        height: 910px;
+        // transform: translate(-200px,-700px);
+        right: 12%;
+        top: -250px;
+        z-index: -1;
+        background: radial-gradient(50% 50% at 50% 50%, #7E3AD6 0%, rgba(126, 58, 214, 0) 100%);
+        opacity: 0.4;
+    }
+    &__img {
+        max-width: 100%;
+    }
+}

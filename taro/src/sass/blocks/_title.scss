@@ -1,0 +1,35 @@
+.title {
+    color: #db9f70;
+    font-family: Gabriela;
+    font-size: 60px;
+    margin-bottom: 14px;
+    h1 {
+        font-size: 60px;
+        margin-bottom: 35px;
+    }
+}
+.subtitle {
+    h2 {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 33px;
+        font-weight: 400;
+        margin-bottom: 52px;
+        span {
+            text-shadow: 0 0 12px rgba(236, 238, 95, 0.8);
+            color: #ecee5f;
+            font-family: "Open Sans";
+            font-size: 33px;
+            font-weight: 400;
+        }
+    }
+    &_acquintance {
+        margin-bottom: 0;
+    }
+}
+.junga {
+    color: #ffffff;
+    font-family: Caveat;
+    font-size: 50px;
+    font-weight: 400;
+}
