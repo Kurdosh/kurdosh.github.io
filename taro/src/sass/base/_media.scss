@@ -250,6 +250,9 @@
 }
 
 @media (max-width: 534px) {
+    .container {
+        max-width: 534px;
+    }
     body {
         max-width: 534px
     }
@@ -263,6 +266,13 @@
         }
         .burger {
             display: block;
+        }
+        &__nav {
+            &_top {
+                button {
+                    margin-right: 20px;
+                }
+            }
         }
     }
     .burger {
@@ -282,6 +292,7 @@
             margin: 0 auto;
         }
     }
+    
     
 
 @media (min-width: 534px) {
@@ -347,6 +358,10 @@
             left: -250px;
             top: 200px;
         }
+    }
+    .container {
+        max-width: 400px;
+        overflow: hidden;
     }
     
 }
