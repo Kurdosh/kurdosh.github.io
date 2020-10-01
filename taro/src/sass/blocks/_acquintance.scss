@@ -10,14 +10,13 @@
     }
     &__title {
         h1 {
-            font-size: 60px !important;
+            font-size: 60px ;
         }
     }
     &__bg {
         position: absolute;
         width: 980px;
         height: 910px;
-        // transform: translate(-200px,-700px);
         right: 12%;
         top: -250px;
         z-index: -1;
