@@ -310,6 +310,9 @@
     }
 }
 @media (max-width: 400px) {
+    .container {
+        max-width: 400px;
+    }
     .author {
         &__bg {
             left: -100px;
