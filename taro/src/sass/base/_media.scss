@@ -14,6 +14,7 @@
             display: none;
         }
         &__nav {
+            padding: 0;
             button {
                 display: none;
             }
@@ -30,17 +31,24 @@
             display: flex;
             justify-content: space-around;
         }
+        &__link {
+            margin: 0 5px;
+        }
     }
     .junga {
         font-size: 33px;
     }
     .title {
         font-size: 50px;
+        margin-left: 0;
         h1 {
-            font-size: 57px;
+            font-size: 37px;
         }
         span {
             font-size: 95px;
+        }
+        h2 {
+            font-size: 50px;
         }
     }
     .subtitle {
@@ -78,6 +86,9 @@
                 font-size: 122px;
             }
         }
+        &__wrapper {
+            padding: 0;
+        }
     }
 
 
@@ -102,10 +113,20 @@
             text-align: center;
             margin-bottom: 53px;
         }
+        &__list {
+            margin-right: 0;
+        }
+        &__item {
+            margin-right: 0;
+            margin-left: 0;
+        }
     }
 
     .content {
         margin-bottom: 112px;
+        &__left {
+            margin: 0;
+        }
     }
     
 
@@ -128,7 +149,9 @@
 @media (max-width: 700px) {
     .title {
         text-align: center;
-        font-size: 44px;
+        h2 {
+            font-size: 44px;
+        }
     }
     .header {
         margin-bottom: 20px;

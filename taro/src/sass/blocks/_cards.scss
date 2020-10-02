@@ -1,18 +1,26 @@
 .cards {
     position: relative;
-    margin-bottom: 215px;
+    margin-bottom: 210px;
+    .center {
+        text-align: center;
+        margin-left: 55px;
+    }
     &__wrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
     }
     &__card {
         max-width: 345px;
+        margin: 0px 23px;
     }
     &__img {
-        transform: translateY(70px);
+        transform: translateY(60px);
         position: relative;
         z-index: -2;
+    }
+    &__text {
+        margin-top: -50px;
     }
     &__title {
         text-align: center;

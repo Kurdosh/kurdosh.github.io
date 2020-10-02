@@ -1,15 +1,12 @@
 .content {
     position: relative;
-    margin-bottom: 217px;
+    margin-bottom: 240px;
     &__bg {
         position: absolute;
         width: 1194px;
         height: 1126px;
-        // transform: translate(300px, -350px);
-
         right: 0%;
         top: -300px;
-
         z-index: -1;
         background: radial-gradient(50% 50% at 50% 50%, #D63A3A 0%, rgba(126, 58, 214, 0) 100%);
         opacity: 0.3;
@@ -19,7 +16,7 @@
         justify-content: space-around;
     }
     &__descr {
-        margin-top: 70px;
+        margin-top: 60px;
         max-width: 490px;
         opacity: 0.9;
         color: #ffffff;
@@ -30,5 +27,8 @@
     }
     &__img {
         max-width: 100%;
+    }
+    &__left {
+        margin-left: 35px;
     }
 }

@@ -100,15 +100,17 @@
 }
 .prev-arrow {
     position: absolute;
-    left: 0px;
+    left: 6%;
     top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
 }
 .next-arrow {
     position: absolute;
     cursor: pointer;
-    right: 0px;
+    right: 6%;
     top: 50%;
+    transform: translateY(-50%);
 }
 .dots-style {
     display: flex;

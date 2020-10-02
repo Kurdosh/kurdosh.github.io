@@ -1,12 +1,12 @@
 .acquaintance {
-    margin-bottom: 173px;
+    margin-bottom: 170px;
     position: relative;
     &__wrapper {
         display: flex;
         justify-content: space-around;
     }
     &__left {
-        margin-left: 20px;
+        margin-left: 100px;
     }
     &__title {
         h1 {
@@ -25,5 +25,9 @@
     }
     &__img {
         max-width: 100%;
+    }
+    .junga {
+        margin-top: 27px;
+        margin-bottom: 14px;
     }
 }

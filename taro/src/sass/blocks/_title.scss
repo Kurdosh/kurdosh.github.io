@@ -2,19 +2,29 @@
     color: #db9f70;
     font-family: Gabriela;
     font-size: 60px;
-    margin-bottom: 14px;
+    margin-bottom: 13px;
+    font-style: normal;
+    font-weight: normal;
     h1 {
         font-size: 60px;
-        margin-bottom: 35px;
+        margin: 0;
+        font-size: 60px;
+        line-height: 77px;
+    }
+    h2 {
+        margin: 0;
+        font-size: 60px;
+        margin-bottom: 13px;
+        font-size: 60px;
+        line-height: 77px;
     }
 }
 .subtitle {
-    h2 {
         color: #ffffff;
         font-family: "Open Sans";
         font-size: 33px;
         font-weight: 400;
-        margin-bottom: 52px;
+        margin-bottom: 50px;
         span {
             text-shadow: 0 0 12px rgba(236, 238, 95, 0.8);
             color: #ecee5f;
@@ -22,7 +32,6 @@
             font-size: 33px;
             font-weight: 400;
         }
-    }
     &_acquintance {
         margin-bottom: 0;
     }

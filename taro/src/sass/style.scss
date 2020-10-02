@@ -1,5 +1,3 @@
-
-@import 'base/slick';
 * {
     box-sizing: border-box;
 }
@@ -12,13 +10,14 @@ html {
     scroll-behavior: smooth;
 }
 .container {
-    max-width: 1300px;
+    max-width: 1380px;
     margin: 0 auto;
 }
 .center {
     text-align: center;
+    margin-left: 55px;
 }
-
+@import 'base/slick';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/acquintance';
@@ -31,4 +30,5 @@ html {
 @import 'blocks/order';
 @import 'blocks/footer';
 @import 'base/media';
+@import 'base/fonts';
 

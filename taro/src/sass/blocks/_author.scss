@@ -1,5 +1,5 @@
 .author {
-    margin-bottom: 149px;
+    margin-bottom: 155px;
     position: relative;
     &__bg {
         position: absolute;
@@ -18,7 +18,8 @@
     }
     &__wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        padding-right: 42px;
     }
     &__descr {
         position: relative;
