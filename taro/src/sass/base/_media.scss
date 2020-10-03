@@ -9,6 +9,9 @@
     .container {
         max-width: 768px;
     }
+    .center {
+        margin: 0;
+    }
     .header {
         &__bg {
             display: none;
@@ -35,6 +38,7 @@
             margin: 0 5px;
         }
     }
+
     .junga {
         font-size: 33px;
     }
@@ -100,6 +104,9 @@
         &__second-bg {
             right: -90%;
         }
+        .center {
+            margin: 0;
+        }
     }
 
 
@@ -107,6 +114,7 @@
         margin-bottom: 93px;
         .title {
             display: none;
+            margin-left: 0;
         }
         .title_hidden {
             display: block;
@@ -128,7 +136,6 @@
             margin: 0;
         }
     }
-    
 
 
     .review {
@@ -354,7 +361,7 @@
     }
     .for {
         &__bg {
-            left: -500px;
+            left: -550px;
         }
     }
     .review {
