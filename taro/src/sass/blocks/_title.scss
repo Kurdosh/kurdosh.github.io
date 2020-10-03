@@ -5,11 +5,13 @@
     margin-bottom: 13px;
     font-style: normal;
     font-weight: normal;
+
     h1 {
         font-size: 60px;
         margin: 0;
         font-size: 60px;
         line-height: 77px;
+        font-weight: normal;
     }
     h2 {
         margin: 0;
@@ -17,6 +19,7 @@
         margin-bottom: 13px;
         font-size: 60px;
         line-height: 77px;
+        font-weight: normal;
     }
 }
 .subtitle {
@@ -40,5 +43,8 @@
     color: #ffffff;
     font-family: Caveat;
     font-size: 50px;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 63px;
 }
