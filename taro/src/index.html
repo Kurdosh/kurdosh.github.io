@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Знакомство с ТАРО</title>
-    <link rel="stylesheet" rel="preload" href="css/style.min.css">
+    <link rel='stylesheet' href="css/style.min.css">
 </head>
 
 <body>
@@ -31,17 +31,17 @@
         </div>
     </header>
 
-    <section class="acquaintance" id="acquaintance">
+    <section class="acquaintance" id="acquaintance" itemscope itemtype="http://schema.org/CreativeWork">
         <div class="container">
             <div class="acquaintance__wrapper">
                 <div class="acquaintance__left">
-                    <div class="junga">
+                    <div class="junga" itemprop="author">
                         ЯринаДжунга
                     </div>
-                    <div class="title ">
+                    <div class="title" itemprop="name">
                         <h1>Знакомство с <span>ТАРО</span></h1>
                     </div>
-                    <div class="subtitle subtitle_acquaintance">
+                    <div class="subtitle subtitle_acquaintance" itemprop="description">
                         Быстро и интересно <br> Для начинающих
                     </div>
                     <button class="btn btn_yellow"><a href="#order">получить бесплатно</a></button>
@@ -192,7 +192,9 @@
                     <div class="title">
                         <h2>Содержание</h2>
                     </div>
-                    <div class="content__descr">В этой книге вы увидите познавательные материалы, необходимые для
+                    <div class="content__descr">
+                        В этой книге вы увидите познавательные материалы,
+                        необходимые для
                         понимания Таро, информация о том, что необходимо для подготовки к гаданию, о защите Таролога,
                         рассматриваются ошибки начинающих Тарологов, в том числе почему не получается гадать самому
                         себе, а также дается значение всех арканов Таро, авторские, понятные, без масштабных описаний
@@ -361,13 +363,13 @@
     </footer>
 
 
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquerry.min.js"></script>
+    <script type="text/javascript" src="js/jquerry-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js//main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript"
-        src="https://cp.unisender.com/v5/template-editor-new/js/app/preview/form/form-widget-loader.js"></script>
+        src="https://cp.unisender.com/v5/template-editor-new/js/app/preview/form/form-widget-loader.js">
+        </script>
 </body>
 
 </html>

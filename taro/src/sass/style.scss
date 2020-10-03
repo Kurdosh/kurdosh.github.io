@@ -17,6 +17,7 @@ html {
     text-align: center;
     margin-left: 55px;
 }
+@import 'base/fonts';
 @import 'base/slick';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -30,5 +31,4 @@ html {
 @import 'blocks/order';
 @import 'blocks/footer';
 @import 'base/media';
-@import 'base/fonts';
 
