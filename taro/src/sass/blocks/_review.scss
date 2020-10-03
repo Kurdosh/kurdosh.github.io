@@ -1,4 +1,7 @@
 .review {
+    .title {
+        margin-bottom: 60px;
+    }
     position: relative;
     margin-bottom: 168px;
     &__first-bg {
@@ -23,7 +26,7 @@
         opacity: 0.3;
     }
     &__slider {
-        max-width: 780px;
+        max-width: 800px;
         margin: 0 auto;
     }
     &__item {
@@ -43,7 +46,7 @@
     &__title {
         color: #ffffff;
         font-family: Caveat;
-        font-size: 50px;
+        font-size: 47px;
         font-weight: 400;
         &:after {
             content: '„';

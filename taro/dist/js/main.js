@@ -4,6 +4,7 @@ $(document).ready(function () {
         prevArrow: $('.prev-arrow'),
         nextArrow: $('.next-arrow'),
         dotsClass: "dots-style",
+        adaptiveHeight: true,
         responsive: [{
             breakpoint: 768,
             settings: {
