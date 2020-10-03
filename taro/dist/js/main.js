@@ -5,6 +5,8 @@ $(document).ready(function () {
         nextArrow: $('.next-arrow'),
         dotsClass: "dots-style",
         adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
         responsive: [{
             breakpoint: 768,
             settings: {
