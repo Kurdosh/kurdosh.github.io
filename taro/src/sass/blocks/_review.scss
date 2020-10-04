@@ -80,11 +80,14 @@
         font-weight: 400;
     }
     &__date {
-        display: block;
-        color: #db9f70;
-        font-family: "Open Sans";
-        font-size: 17px;
-        font-weight: 400;
+        a {
+            display: block;
+            color: #db9f70;
+            font-family: "Open Sans";
+            font-size: 17px;
+            font-weight: 400;
+            text-decoration: none;
+        }
     }
     &__wrapper {
         position: relative;
