@@ -401,3 +401,10 @@
         }
     }
 }
+@media (min-width: 1400px) {
+    .acquaintance {
+        &__img {
+            min-height: 506px;
+        }
+    }
+}
