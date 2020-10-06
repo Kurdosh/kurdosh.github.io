@@ -6,7 +6,7 @@ $(document).ready(function () {
         dotsClass: "dots-style",
         adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 8000,
         responsive: [{
             breakpoint: 768,
             settings: {
