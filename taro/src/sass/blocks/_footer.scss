@@ -31,4 +31,15 @@
             }
         }
     }
+    &__info {
+        transform: translateY(40px);
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 55px;
+        a {
+            font-size: 15px !important;
+            color: rgba(255, 255, 255, 0.281);
+            text-decoration: none;
+        }
+    }
 }
